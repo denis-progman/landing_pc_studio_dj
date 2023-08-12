@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, black, rgb(38, 43, 75));
+    color: white;
+/*rgb(75, 155, 231)*/
+/*rgb(38, 43, 75)*/
+/*    rgb(177, 37, 155)*/
+}
+section {
+    padding: 10px 20px;
+}
+
+hr{
+    color: white;
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(75, 155, 231);
+}
+
+h3 {
+    font-size: 2em;
+    color: white;
+}
+
+button{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bolder;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.big_button{
+    padding: 10px 40px;
+    font-size: 1em;
+}
+
+input, select, textarea{
+    padding: 10px 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: 1em;
+    background: darkgray;
+    width: 200px;
+}
+
+input {
+}
+
+input[type="number"] {
+    text-align: center;
+
+}
+
+textarea{
+    min-width: 300px;
+    font-weight: normal;
+    height: 80px;
+}
+
+.flex_break{
+    width: 100%;
+}
+
+.logo_box {
+    margin-top: 20px;
+}
+
+.logo_box img {
+    width: 30%;
+    min-width: 300px;
+    opacity: 0.7;
+}
+
+.description {
+
+}
+
+.timer {
+    font-size: 2em;
+}
+.timer h5 {
+    margin: 0;
+}
+.timer h6 {
+    margin: 0;
+    font-size: 2em;
+    color: darkgray;
+}
+.timer span {
+    font-size: 1.2em;
+    color: rgb(75, 155, 231);
+}
+
+.application {
+
+}
+
+.application form {
+    margin: 5px auto;
+    max-width: 600px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.application form > * {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.application form > div {
+    margin: 0 auto;
+}
+
+
+.application form > button {
+    width: 200px;
+    margin: 5px auto;
+    display: inline;
+}
+
