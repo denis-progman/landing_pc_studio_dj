@@ -32,22 +32,22 @@
     <h6 data-current="<?= $startDataTimeStamp?>"></h6>
 </section>
 <hr/>
-<section class="application">
+<section class="application" id="app_form">
     <h3>Fill in the form to join us first!</h3>
-    <form id="app_form" method="post">
-        <input name="form_name" value="app_form" hidden>
+    <form method="post">
+        <input name="form_name" value="app_form" style="display: none" hidden>
         <label>Email:
-            <input type="email" placeholder="your reliable email" required>
+            <input type="email" name="email" placeholder="your reliable email" required>
         </label>
         <label>
             Nickname:
-            <input type="text" placeholder="your pronoun as musician or dj" required>
+            <input type="text" name="nickname" placeholder="pronoun as musician/dj" required>
         </label>
         <label>
-            Genre:
+            Music genre:
             <div>
-                <select>
-                    <option value="">your main EDM style</option>
+                <select name="music_genre">
+                    <option value="">main EDM style</option>
                     <option value="trap">trap</option>
                     <option value="house">house</option>
                     <option value="chill out">chill out</option>
@@ -64,30 +64,52 @@
                     <option value="future style">future style</option>
                     <option value="other">OTHER (not listed)</option>
                 </select>
-                <input type="text" placeholder="your variant of EDM style" style="display: none">
+                <input type="text" placeholder="your style variant" style="display: none">
             </div>
         </label>
         <label>
-            How many years do you make music:
-            <input type="number" min="1" max="50" required>
+            Years in EDM:
+            <input type="number" data-note="How many years do you make music" name="experience_years" min="1" max="50" required>
         </label>
         <label>
-            How many tracks have you made (approximately):
-            <input type="number" min="1" max="50" required>
+            Tracks count:
+            <input type="number" data-note="How many tracks have you made(approximately)" name="tracks_amount" min="1" max="50" required>
         </label>
         <label>
-            Your public music page:
-            <input type="text" placeholder="social network link or something">
+            Public page:
+            <input type="text" name="link" placeholder="social network link">
         </label>
         <div>
             <label>
                 Anything you want to say us:
                 <br/>
-                <textarea placeholder="Any parting words, ideas, suggestions, etc. if you'd like to say something, fell free but be brief."></textarea>
+                <textarea name="suggestion" placeholder="Any parting words, ideas, suggestions, etc. if you'd like to say something, fell free but be brief."></textarea>
             </label>
         </div>
         <button type="submit">Send form</button>
     </form>
+</section>
+<section class="current_news">
+    <h3>Now <span><?= $userCount?></span> musicians from all the world are already with us!</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ipsa libero odio. Accusantium, architecto deserunt. Explicabo fuga, hic mollitia quaerat veritatis voluptatem! Aliquam cupiditate harum ipsam veniam. Blanditiis deserunt eius non quam rerum sit ut velit voluptatem? Ad aliquid amet aperiam aspernatur assumenda blanditiis consequatur consequuntur cum deleniti dolor eaque enim esse et eum facilis fuga harum id illum in iste itaque laborum libero, nam natus neque nesciunt nostrum optio perferendis quidem quod rem reprehenderit, similique sint ullam vel voluptas voluptates? Accusamus, sapiente, voluptatum. Accusamus alias assumenda, blanditiis consectetur distinctio ex labore maxime nihil quia, ratione sint sit temporibus unde!
+    </p>
+    <h5>Last news:</h5>
+    <ul>
+        <li>-10/12/2023 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, nisi.</li>
+        <li>-10/12/2023 Aliquid ducimus error illo ipsa laudantium necessitatibus odio rerum vero.</li>
+        <li>-10/12/2023 Aut eos eum facilis hic ipsa libero officiis, quibusdam voluptatem.</li>
+        <li>-10/12/2023 Architecto aspernatur cum dolor est nesciunt provident recusandae repudiandae velit.</li>
+        <li>-10/12/2023 Ipsa, praesentium recusandae. Beatae eum ex optio perferendis recusandae, repudiandae.</li>
+        <li>-10/12/2023 Accusamus magni praesentium tempore voluptatem voluptates. Cupiditate impedit laboriosam sint.</li>
+        <li>-10/12/2023 At consequuntur ea eveniet quaerat, sapiente sint totam ullam veritatis.</li>
+        <li>-10/12/2023 At, distinctio harum magni nam neque suscipit! Maxime, sequi, soluta.</li>
+        <li>-10/12/2023 Accusamus hic, impedit laboriosam mollitia officiis quisquam ut veniam voluptatum.</li>
+        <li>-10/12/2023 Dignissimos hic ipsam itaque nobis quae saepe soluta tempore, temporibus?</li>
+        <li>-10/12/2023 Amet dolores error expedita facilis modi necessitatibus totam veniam voluptatibus!</li>
+        <li>-10/12/2023 Esse impedit incidunt magnam nulla porro quae repellendus voluptatem voluptatibus.</li>
+    </ul>
+    <button class="big_button" onclick="window.location.href='/#app_form';">join us</button>
 </section>
 <hr/>
 <section class="footer">
