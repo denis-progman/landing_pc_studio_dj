@@ -148,7 +148,9 @@
 <hr/>
 <section class="footer">
     <div>
-        <strong>To connect with us, please use this mailbox <a href="mailto:pcstudiodj@gmail.com?subject=Feedback+from+PCstudioDj+site">pcstudiodj@gmail.com</a></strong>
+        <strong>
+            To connect with us, please use this mailbox <a href="mailto:pcstudiodj@gmail.com?subject=Feedback from PCstudioDj site">pcstudiodj@gmail.com</a>
+        </strong>
     </div>
     <strong>PC Studio DJ | New York, USA | 2023</strong>
 </section>
