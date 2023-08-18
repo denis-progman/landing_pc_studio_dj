@@ -59,7 +59,7 @@ try {
         if (file_exists(STORAGE_FOLDER)) {
             readStorage($_POST['email']);
         }
-        if (!file_put_contents(STORAGE_FOLDER . "/" . USER_REQUEST_FILE, $data, FILE_APPEND | LOCK_EX)) {
+        if (!file_put_contents(STORAGE_FOLDER . "/" . USER_REQUEST_FILE, $data, FILE_APPEND)) {
             print_r(STORAGE_FOLDER . "/" . USER_REQUEST_FILE);
             throw new Exception("Sorry! Unexpected error!", 1);
         }
