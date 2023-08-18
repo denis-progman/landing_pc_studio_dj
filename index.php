@@ -16,7 +16,7 @@
 <body>
 <!--<h1>PC Studio DJ</h1>-->
 <section class="logo_box">
-    <img src="pc%20studio%20dj%20logo.png" alt="pc studio dj group logo">
+    <img src="pictures/pc%20studio%20dj%20logo.png" alt="pc studio dj group logo">
     <h2>The new generation label is coming soon!</h2>
     <button class="big_button" onclick="window.location.href='/#app_form';">join us the first!</button>
 </section>
