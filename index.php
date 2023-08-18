@@ -19,11 +19,15 @@
 
 <section class="description">
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae eius in ipsam repellat? Ad aliquid aut ex itaque quo totam? Accusamus aliquam aliquid autem beatae, blanditiis distinctio dolor dolore explicabo illum inventore iste itaque labore libero maxime mollitia nam non officia officiis, perspiciatis placeat porro quibusdam quidem similique sint sunt ullam voluptatem!
-        <br/>
-        Alias beatae commodi corporis cum, dolor esse molestiae nemo officiis, perspiciatis provident, reprehenderit repudiandae sunt tempora veniam voluptate! Ad aspernatur, aut autem cumque dolore ea error hic magnam maxime minima nobis obcaecati odio odit quos reiciendis veniam voluptates!
-        <br/>
-        Ad aliquam asperiores aspernatur aut culpa dicta eveniet ipsam iusto minima neque odio placeat provident, quas ratione recusandae rerum saepe sequi temporibus veritatis voluptatibus. Amet aspernatur delectus dolor dolorem et ex, hic id ipsum molestias, nemo nisi numquam odio perspiciatis porro quisquam quos recusandae reprehenderit sint tenetur voluptates.
+        We are starting the absolutely unique EDM project to help musicians from all the world to promote the tracks, to communicate between each other and to find their listeners.
+        Our mission is getting rid of all borders between authors of different levels. We are going to make an environment where professionals and even popular EDM musicians can comfortable and interesting connect with not so popular guys and beginners. Along with it the beginners and developing musicians will have opportunities to have an opinion from experienced and famous men.
+        <br>
+        We started our movement more even 10 years ago, we already have a private EDM community with about 100 musicians and djs. So we’ve got some experience how to do such a thing.
+        And now our founder became a prof. programmer, got a little iT team, so we can make the project bigger and better.
+        <br>
+        The first pilot of the project will be introduced in October 2023. The vip access will be given to guys from our private group and for men who has made an application here.
+        So this is your chance to get earlier vip access and extra points as well. You need just send as this short form.
+        Stay with as look up the latest news. And se you soon in the EDM lable of the future!
     </p>
 </section>
 <hr/>
@@ -92,22 +96,29 @@
 <section class="current_news">
     <h3>Now <span><?= $userCount?></span> musicians from all the world are already with us!</h3>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ipsa libero odio. Accusantium, architecto deserunt. Explicabo fuga, hic mollitia quaerat veritatis voluptatem! Aliquam cupiditate harum ipsam veniam. Blanditiis deserunt eius non quam rerum sit ut velit voluptatem? Ad aliquid amet aperiam aspernatur assumenda blanditiis consequatur consequuntur cum deleniti dolor eaque enim esse et eum facilis fuga harum id illum in iste itaque laborum libero, nam natus neque nesciunt nostrum optio perferendis quidem quod rem reprehenderit, similique sint ullam vel voluptas voluptates? Accusamus, sapiente, voluptatum. Accusamus alias assumenda, blanditiis consectetur distinctio ex labore maxime nihil quia, ratione sint sit temporibus unde!
+        Every day the we develop the app,  each hour we become closer to launch the first version. All of you will have a message with short instructions how to login in your privilege account. If you know somebody who likes and makes dance music let him know about as, show this page!
+        During this time you can see all our latest movements, how our project is growing up, step by step!
     </p>
     <h5>Last news:</h5>
     <ul>
-        <li>-10/12/2023 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, nisi.</li>
-        <li>-10/12/2023 Aliquid ducimus error illo ipsa laudantium necessitatibus odio rerum vero.</li>
-        <li>-10/12/2023 Aut eos eum facilis hic ipsa libero officiis, quibusdam voluptatem.</li>
-        <li>-10/12/2023 Architecto aspernatur cum dolor est nesciunt provident recusandae repudiandae velit.</li>
-        <li>-10/12/2023 Ipsa, praesentium recusandae. Beatae eum ex optio perferendis recusandae, repudiandae.</li>
-        <li>-10/12/2023 Accusamus magni praesentium tempore voluptatem voluptates. Cupiditate impedit laboriosam sint.</li>
-        <li>-10/12/2023 At consequuntur ea eveniet quaerat, sapiente sint totam ullam veritatis.</li>
-        <li>-10/12/2023 At, distinctio harum magni nam neque suscipit! Maxime, sequi, soluta.</li>
-        <li>-10/12/2023 Accusamus hic, impedit laboriosam mollitia officiis quisquam ut veniam voluptatum.</li>
-        <li>-10/12/2023 Dignissimos hic ipsam itaque nobis quae saepe soluta tempore, temporibus?</li>
-        <li>-10/12/2023 Amet dolores error expedita facilis modi necessitatibus totam veniam voluptatibus!</li>
-        <li>-10/12/2023 Esse impedit incidunt magnam nulla porro quae repellendus voluptatem voluptatibus.</li>
+        <li>-Aug 16 2023 the main part of the app interface is almost ready. So little by little</li>
+        <li>-Aug 09 2023 We decided to make a back counter in the landing - now it's motivation!)</li>
+        <li>-Aug 02 2023 Got the troubles with cloud deployment, but it's ok, almost solved!) </li>
+        <li>-Jul 29 2023 We've got some guys to help - it's awesome!</li>
+        <li>-Jul 23 2023 The part of player is ready, working for the main page view.</li>
+        <li>-Jul 17 2023 The main thing is going to be an audio player, so working with it, maybe design will be changed a bit.</li>
+        <li>-Jul 10 2023 Started front-end of the app, looks difficult but possible.</li>
+        <li>-Jul 07 2023 The landing is ready, and now you can see all this news! ;)</li>
+        <li>-Jul 04 2023 The big day in US! And our landing is ready to deploy, looking for the platform and the domain name.</li>
+        <li>-Jun 30 2023 The design of the app is ready, this is going to be website first.</li>
+        <li>-Jun 28 2023 It seems we all of it is gonna take a time, and we need some landing to start.</li>
+        <li>-Jun 24 2023 Started the graphic design of the future app</li>
+        <li>-Jun 13 2023 Have just realised that we need ios, android apps and a web site</li>
+        <li>-Jun 11 2023 The blueprint is done. Trying to understand if it possible:)) and who can help.</li>
+        <li>-Jun 03 2023 We finally decided make it! and started the blueprint of entire idea.</li>
+        <li>-May -- 2023 The idea came to mind - to make PC Studio DJ the project of the world... so why not?</li>
+        <li>-May -- 2023 Made some fixes in our private public, make the project alive again.</li>
+        <li>-Apr -- 2023 The founder of PC studio DJ Denis back to NY from ASOT-1000(Amsterdam) with a bunch of ideas and emotions.</li>
     </ul>
     <button class="big_button" onclick="window.location.href='/#app_form';">join us</button>
 </section>
