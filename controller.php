@@ -67,6 +67,7 @@ try {
     if ($e->getCode() === 1) {
         showMessage($e->getMessage());
     } else {
+        print_r([$e->getMessage(), $e->getFile(), $e->getLine()]);
         showMessage("An undefined error! Please connect to us to solve the problem.");
     }
 }
