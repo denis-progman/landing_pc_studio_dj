@@ -59,7 +59,10 @@ try {
         if (file_exists(STORAGE_FOLDER)) {
             readStorage($_POST['email']);
         }
-        file_put_contents(STORAGE_FOLDER . "/" . USER_REQUEST_FILE, $data, FILE_APPEND | LOCK_EX);
+        if (!file_put_contents(STORAGE_FOLDER . "/" . USER_REQUEST_FILE, $data, FILE_APPEND | LOCK_EX)) {
+            print_r(STORAGE_FOLDER . "/" . USER_REQUEST_FILE);
+            throw new Exception("Sorry! Unexpected error!", 1);
+        }
         $_SESSION["registered"] = 1;
         showMessage(
             "Thank you! You will receive a privilege access and all instructions when the project will be launched!"
