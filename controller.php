@@ -35,7 +35,7 @@ try {
             if (!in_array($key, ["email", "nickname", "music_genre", "experience_years", "tracks_amount", "link", "suggestion"])) {
                 throw new Exception("Error of the form data!", 1);
             }
-            $data .= $key . KEY_DELIMITER . $field . FIELD_DELIMITER;
+            $data .= $key . KEY_DELIMITER . str_replace(["\r\n", "\r", "\n"], "", $field) . FIELD_DELIMITER;
         }
         $data .= "ip" . KEY_DELIMITER . @$_SERVER["REMOTE_ADDR"] . FIELD_DELIMITER;
         $data .= "platform" . KEY_DELIMITER . @$_SERVER["HTTP_SEC_CH_UA_PLATFORM"] . FIELD_DELIMITER;
