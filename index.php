@@ -123,7 +123,7 @@
         <li>-Jun 03 2023 We finally decided make it! and started the blueprint of entire idea.</li>
         <li>-May -- 2023 The idea came to mind - to make PC Studio DJ the project of the world... so why not?</li>
         <li>-May -- 2023 Made some fixes in our private public, make the project alive again.</li>
-        <li>-Apr -- 2023 The founder of PC studio DJ Denis back to NY from ASOT-1000(Amsterdam) with a bunch of ideas and emotions.</li>
+        <li>-Apr -- 2023 The founder of "PC studio DJ" - Denis back to NY from ASOT-1000(Amsterdam) with a bunch of ideas and emotions.</li>
         <li>-Feb -- 2023 The project has got 12 years old. It's still private and not so active, probably we need something new...</li>
     </ul>
     <button class="big_button" onclick="window.location.href='/#app_form';">join us</button>
