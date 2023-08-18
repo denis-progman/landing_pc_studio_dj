@@ -60,7 +60,6 @@ try {
             readStorage($_POST['email']);
         }
         if (!file_put_contents(STORAGE_FOLDER . "/" . USER_REQUEST_FILE, $data, FILE_APPEND)) {
-            print_r(STORAGE_FOLDER . "/" . USER_REQUEST_FILE);
             throw new Exception("Sorry! Unexpected error!", 1);
         }
         $_SESSION["registered"] = 1;
@@ -72,7 +71,7 @@ try {
     if ($e->getCode() === 1) {
         showMessage($e->getMessage());
     } else {
-        print_r([$e->getMessage(), $e->getFile(), $e->getLine()]);
+//        print_r([$e->getMessage(), $e->getFile(), $e->getLine()]);
         showMessage("An undefined error! Please connect to us to solve the problem.");
     }
 }

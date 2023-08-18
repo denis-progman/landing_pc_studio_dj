@@ -21,12 +21,13 @@
     <p>
         We are starting the absolutely unique EDM project to help musicians from all the world to promote the tracks, to communicate between each other and to find their listeners.
         Our mission is getting rid of all borders between authors of different levels. We are going to make an environment where professionals and even popular EDM musicians can comfortable and interesting connect with not so popular guys and beginners. Along with it the beginners and developing musicians will have opportunities to have an opinion from experienced and famous men.
-        <br>
+        <br/><br/>
         We started our movement more even 10 years ago, we already have a private EDM community with about 100 musicians and djs. So we’ve got some experience how to do such a thing.
         And now our founder became a prof. programmer, got a little iT team, so we can make the project bigger and better.
-        <br>
+        <br><br/>
         The first pilot of the project will be introduced in October 2023. The vip access will be given to guys from our private group and for men who has made an application here.
         So this is your chance to get earlier vip access and extra points as well. You need just send as this short form.
+        <br/>
         Stay with as look up the latest news. And se you soon in the EDM lable of the future!
     </p>
 </section>
@@ -96,12 +97,16 @@
 <section class="current_news">
     <h3>Now <span><?= $userCount?></span> musicians from all the world are already with us!</h3>
     <p>
-        Every day the we develop the app,  each hour we become closer to launch the first version. All of you will have a message with short instructions how to login in your privilege account. If you know somebody who likes and makes dance music let him know about as, show this page!
+        Every day the we develop the app,  each hour we become closer to launch the first version. All of you will have a message with short instructions how to login in your privilege account.
+        <br/>
+        If you know somebody who likes and makes dance music let him know about as, show this page!
+        <br/>
         During this time you can see all our latest movements, how our project is growing up, step by step!
     </p>
     <h5>Last news:</h5>
     <ul>
-        <li>-Aug 16 2023 the main part of the app interface is almost ready. So little by little</li>
+        <li>-Aug 19 2023 It's great to see that people is coming here! Thanks everybody!</li>
+        <li>-Aug 16 2023 The main part of the app interface is almost ready. So little by little</li>
         <li>-Aug 09 2023 We decided to make a back counter in the landing - now it's motivation!)</li>
         <li>-Aug 02 2023 Got the troubles with cloud deployment, but it's ok, almost solved!) </li>
         <li>-Jul 29 2023 We've got some guys to help - it's awesome!</li>
@@ -119,6 +124,7 @@
         <li>-May -- 2023 The idea came to mind - to make PC Studio DJ the project of the world... so why not?</li>
         <li>-May -- 2023 Made some fixes in our private public, make the project alive again.</li>
         <li>-Apr -- 2023 The founder of PC studio DJ Denis back to NY from ASOT-1000(Amsterdam) with a bunch of ideas and emotions.</li>
+        <li>-Feb -- 2023 The project has got 12 years old. It's still private and not so active, probably we need something new...</li>
     </ul>
     <button class="big_button" onclick="window.location.href='/#app_form';">join us</button>
 </section>
