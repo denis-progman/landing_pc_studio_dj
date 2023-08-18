@@ -2,8 +2,7 @@
 session_start();
 require_once "config.php";
 require_once "functions.php";
-//echo "<pre>";
-//print_r($_SERVER);
+
 try {
     $startDataTimeStamp = strtotime(DATE_OF_PROJECT_START) - time();
     $realUserCount = count(getUsersData());
