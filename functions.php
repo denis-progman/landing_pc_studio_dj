@@ -32,7 +32,7 @@ function addLog(mixed $message):void {
     file_put_contents(
         STORAGE_FOLDER . "/" . LOG_FILE . ".log",
         date("d-m-Y H:i:s") . " -- " . print_r($message, true) . "\n\n",
-        FILE_APPEND | LOCK_EX
+        FILE_APPEND
     );
 }
 
