@@ -11,7 +11,7 @@ body {
 /*    rgb(177, 37, 155)*/
 }
 section {
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 
 hr{
@@ -110,7 +110,7 @@ textarea{
 
 .application form {
     padding: 0 5px;
-    margin: 5px auto;
+    margin: 5px auto 50px auto;
     max-width: 500px;
     min-width: 250px;
     display: flex;
@@ -138,8 +138,18 @@ textarea{
 }
 
 .current_news {
-    background: rgba(0,0, 0, .2);
+    background: url(pictures/dance_crowd_banner.jpeg) fixed center;
+    padding-left: 0;
+    padding-right: 0;
 }
+.current_news > div {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
 .current_news h3 > span {
     font-size: 1.2em;
     color: rgb(75, 155, 231);
@@ -150,7 +160,9 @@ textarea{
 }
 
 .current_news ul {
-    background: rgba(63, 63, 63, 0.2);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.4);
     text-align: left;
     height: 210px;
     padding: 10px 30px;
@@ -160,6 +172,18 @@ textarea{
 
 .current_news ul > li {
     padding: 10px 10px;
+}
+
+.footer {
+    padding-top: 5px;
+}
+
+.footer > div {
+    margin-bottom: 15px;
+}
+.footer a {
+    color: rgb(75, 155, 231);
+    font-size: 18px;
 }
 
 

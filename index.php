@@ -6,8 +6,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="pictures/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="pictures/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="pictures/favicon/favicon-16x16.png">
+    <link rel="manifest" href="pictures/favicon/site.webmanifest">
     <link rel="stylesheet" href="stiles.css">
-    <title>PC Studio DJ | the new generation label</title>
+    <title>PC Studio DJ | new EDM label</title>
 </head>
 <body>
 <!--<h1>PC Studio DJ</h1>-->
@@ -95,6 +99,7 @@
     </form>
 </section>
 <section class="current_news">
+    <div>
     <h3>Now <span><?= $userCount?></span> musicians from all the world are already with us!</h3>
     <p>
         Every day the we develop the app,  each hour we become closer to launch the first version. All of you will have a message with short instructions how to login in your privilege account.
@@ -127,10 +132,25 @@
         <li>-Feb -- 2023 The project has got 12 years old. It's still private and not so active, probably we need something new...</li>
     </ul>
     <button class="big_button" onclick="window.location.href='/#app_form';">join us</button>
+    </div>
+</section>
+<section class="donation">
+    <h3>Help us, we really need your help!</h3>
+    <form action="https://www.paypal.com/donate" method="post" target="_blank">
+        <input type="hidden" name="business" value="2JSGP3WX4Q6LU" />
+        <input type="hidden" name="no_recurring" value="0" />
+        <input type="hidden" name="item_name" value="We are starting an unique EDM to help musicians promote the tracks, communicate between each other and find their listeners. " />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+    </form>
 </section>
 <hr/>
 <section class="footer">
-    <strong>New York, USA | 2023</strong>
+    <div>
+        <strong>To connect with us, please use this mailbox <a href="mailto:pcstudiodj@gmail.com?subject=Feedback+from+PCstudioDj+site">pcstudiodj@gmail.com</a></strong>
+    </div>
+    <strong>PC Studio DJ | New York, USA | 2023</strong>
 </section>
 </body>
 <script src="script.js"></script>
