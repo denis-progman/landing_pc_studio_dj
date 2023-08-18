@@ -1,7 +1,9 @@
 <?php
 session_start();
+require __DIR__ . '/vendor/autoload.php';
 require_once "config.php";
 require_once "functions.php";
+
 use Aws\S3\S3Client;
 
 try {
