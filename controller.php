@@ -11,6 +11,7 @@ try {
         'version' => 'latest',
         'region' => 'us-east-1',
     ]);
+    $s3->registerStreamWrapper();
 
     $startDataTimeStamp = strtotime(DATE_OF_PROJECT_START) - time();
     $realUserCount = count(getUsersData());
