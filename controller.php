@@ -7,11 +7,10 @@ require_once "functions.php";
 use Aws\S3\S3Client;
 
 try {
-    $s3 = new S3Client([
-        'version' => 'latest',
-        'region' => 'us-east-1',
-    ]);
-    $s3->registerStreamWrapper();
+    (new S3Client([
+        "version" => "latest",
+        "region" => "us-east-1",
+    ]))->registerStreamWrapper();
 
     $startDataTimeStamp = strtotime(DATE_OF_PROJECT_START) - time();
     $realUserCount = count(getUsersData());
