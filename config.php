@@ -1,5 +1,4 @@
 <?php
-
 const DATE_OF_PROJECT_START = "10/02/2023";
 const MIN_USER_COUNT = 123;
 const FILE_STORAGE = 'user_requests';
