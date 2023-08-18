@@ -2,8 +2,14 @@
 session_start();
 require_once "config.php";
 require_once "functions.php";
+use Aws\S3\S3Client;
 
 try {
+    $s3 = new S3Client([
+        'version' => 'latest',
+        'region' => 'us-east-1',
+    ]);
+
     $startDataTimeStamp = strtotime(DATE_OF_PROJECT_START) - time();
     $realUserCount = count(getUsersData());
     $userCount = $realUserCount + MIN_USER_COUNT;
@@ -48,10 +54,10 @@ try {
 
         $data .= USER_DELIMITER;
 
-        if (file_exists(FILE_STORAGE)) {
+        if (file_exists(STORAGE_FOLDER)) {
             readStorage($_POST['email']);
         }
-        file_put_contents(FILE_STORAGE, $data, FILE_APPEND | LOCK_EX);
+        file_put_contents(STORAGE_FOLDER . "/" . USER_REQUEST_FILE, $data, FILE_APPEND | LOCK_EX);
         $_SESSION["registered"] = 1;
         showMessage(
             "Thank you! You will receive a privilege access and all instructions when the project will be launched!"

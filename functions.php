@@ -1,6 +1,6 @@
 <?php
 function getUsersData(): array {
-    $storageString = file_get_contents(FILE_STORAGE);
+    $storageString = file_get_contents(STORAGE_FOLDER . "/" . USER_REQUEST_FILE);
     return explode(USER_DELIMITER, $storageString);
 }
 
@@ -30,7 +30,7 @@ function readStorage(?string $checkMail = null): array {
 
 function addLog(mixed $message):void {
     file_put_contents(
-        LOG_FILE . ".log",
+        STORAGE_FOLDER . "/" . LOG_FILE . ".log",
         date("d-m-Y H:i:s") . " -- " . print_r($message, true) . "\n\n",
         FILE_APPEND | LOCK_EX
     );
