@@ -95,12 +95,10 @@
                 <textarea name="suggestion" placeholder="Any parting words, ideas, suggestions, etc. if you'd like to say something, fell free but be brief."></textarea>
             </label>
         </div>
-        <div>
-            <label>
+        <label>
                 I agree to the processing of data:
                 <input type="checkbox" name="agreement" value="yes">
-            </label>
-        </div>
+        </label>
         <button type="submit" disabled>Send form</button>
     </form>
 </section>

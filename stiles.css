@@ -129,6 +129,16 @@ textarea{
 .application form > label {
     font-size: 1.2em;
 }
+.application form > input[type="checkbox"] {
+    zoom: 1.5;
+}
+
+.application form > button:disabled,
+.application form > button[disabled] {
+    background: #505050;
+    color: darkgray;
+    cursor: not-allowed;
+}
 
 
 .application form > button {
@@ -195,11 +205,12 @@ textarea{
     z-index: 8;
     border: 1px white solid;
     padding: 20px;
-    background: #34625782;
+    background: rgba(38, 43, 75, 0.6);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 }
 .bottom_notice h6 {
+    margin: 5px auto;
     font-size: 13px;
 }
 .bottom_notice p {
