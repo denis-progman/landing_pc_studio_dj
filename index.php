@@ -135,7 +135,7 @@
     </div>
 </section>
 <section class="donation">
-    <h3>Help us, we really need your help!</h3>
+    <h3>Help our mission, we really need your help!</h3>
     <form action="https://www.paypal.com/donate" method="post" target="_blank">
         <input type="hidden" name="business" value="2JSGP3WX4Q6LU" />
         <input type="hidden" name="no_recurring" value="0" />
