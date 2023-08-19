@@ -141,15 +141,20 @@ textarea{
     background-image: url(pictures/dance_crowd_banner.jpeg);
     /*background-position: center;*/
     background-attachment: fixed;
-    padding-left: 0;
-    padding-right: 0;
+    background-size: cover;
+    transform: scale(1.1, 1.1);
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 768px){
     .current_news {
-        background-attachment: initial;
+        background-size: 100% 100vh;
     }
 }
+/*@media (max-width: 767px) {*/
+/*    .current_news {*/
+/*        background-attachment: initial;*/
+/*    }*/
+/*}*/
 
 .current_news > div {
     margin: 20px 0;
