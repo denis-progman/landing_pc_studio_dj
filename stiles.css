@@ -143,12 +143,6 @@ textarea{
     background-attachment: fixed;
 }
 
-@media (max-width: 767px) {
-    .current_news {
-        background-attachment: initial;
-    }
-}
-
 .current_news > div {
     margin: 20px 0;
     padding: 20px;
