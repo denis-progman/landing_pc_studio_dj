@@ -138,16 +138,25 @@ textarea{
 }
 
 .current_news {
-    background: url(pictures/dance_crowd_banner.jpeg) fixed center;
+    background-image: url(pictures/dance_crowd_banner.jpeg);
+    background-position: center;
+    background-attachment: fixed;
     padding-left: 0;
     padding-right: 0;
 }
+
+@media (max-width: 767px) {
+    /*.current_news {*/
+    /*    background-attachment: initial;*/
+    /*}*/
+}
+
 .current_news > div {
     margin: 20px 0;
     padding: 20px;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 .current_news h3 > span {
