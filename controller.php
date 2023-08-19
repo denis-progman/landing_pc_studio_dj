@@ -16,12 +16,15 @@ try {
     $realUserCount = count(getUsersData());
     $userCount = $realUserCount + MIN_USER_COUNT;
     if (@$_POST['form_name'] == 'app_form') {
+        if (!isset($_POST["agreement"]) || $_POST["agreement"] != "yes") {
+            throw new Exception("You didn't sign the data processing agreement! it's required!", 1);
+        }
         if (isset($_SESSION["registered"]) && $_SESSION["registered"] === 1) {
             throw new Exception("You have been registered recently. Thank you!", 1);
         }
         unset($_POST['form_name']);
         $_POST = array_map('trim', $_POST);
-        if (count($_POST) < 5 || count($_POST) > 7) {
+        if (count($_POST) < 5 || count($_POST) > 8) {
             throw new Exception("Error of the form data!!", 1);
         }
         $data = "n" . KEY_DELIMITER . $realUserCount . FIELD_DELIMITER;
@@ -32,7 +35,7 @@ try {
             ) {
                 throw new Exception("Incorrect values in the form!", 1);
             }
-            if (!in_array($key, ["email", "nickname", "music_genre", "experience_years", "tracks_amount", "link", "suggestion"])) {
+            if (!in_array($key, ["email", "nickname", "music_genre", "experience_years", "tracks_amount", "link", "suggestion", "agreement"])) {
                 throw new Exception("Error of the form data!", 1);
             }
             $data .= $key . KEY_DELIMITER . str_replace(["\r\n", "\r", "\n"], "", $field) . FIELD_DELIMITER;

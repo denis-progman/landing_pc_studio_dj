@@ -95,7 +95,13 @@
                 <textarea name="suggestion" placeholder="Any parting words, ideas, suggestions, etc. if you'd like to say something, fell free but be brief."></textarea>
             </label>
         </div>
-        <button type="submit">Send form</button>
+        <div>
+            <label>
+                I agree to the processing of data:
+                <input type="checkbox" name="agreement" value="yes">
+            </label>
+        </div>
+        <button type="submit" disabled>Send form</button>
     </form>
 </section>
 <section class="current_news">
@@ -154,6 +160,13 @@
     </div>
     <strong>PC Studio DJ | New York, USA | 2023</strong>
 </section>
+<div class="bottom_notice">
+    <h6>THE COOKIE AGREEMENT!</h6>
+    <p>
+        Attention please! We use cookie to improve your experience on our site. By using our site you consent cookies.
+    </p>
+    <button>Got it !</button>
+</div>
 </body>
 <script src="script.js"></script>
 </html>

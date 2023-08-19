@@ -187,4 +187,22 @@ textarea{
     font-size: 18px;
 }
 
+.bottom_notice {
+    position: fixed;
+    left: 2px;
+    right: 2px;
+    bottom: 0;
+    z-index: 8;
+    border: 1px white solid;
+    padding: 20px;
+    background: #34625782;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+.bottom_notice h6 {
+    font-size: 13px;
+}
+.bottom_notice p {
+    font-size: 15px;
+}
 
