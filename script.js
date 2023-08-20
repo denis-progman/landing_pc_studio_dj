@@ -32,9 +32,4 @@ window.onload = function () {
         .addEventListener('input', (event) => {
             subButton.disabled = !event.target.checked
         })
-
-    document.querySelector(".application > form button[type='submit']")
-        .addEventListener("click", (event) => {
-            event.target.parentElement.style.display = "none"
-        })
 }
