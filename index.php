@@ -96,8 +96,12 @@
             </label>
         </div>
         <label>
-                I agree to the processing of data:
-                <input type="checkbox" name="agreement" value="yes">
+            I agree to the processing of data:
+            <div class="checkbox-wrapper-33">
+                <label class="checkbox">
+                    <input class="checkbox__trigger visuallyhidden" type="checkbox" name="agreement" value="yes"/>
+                </label>
+            </div>
         </label>
         <button type="submit" disabled>Send form</button>
     </form>
