@@ -178,9 +178,10 @@ input[type=checkbox]:checked {
 
 .current_news {
     background-image: url(pictures/dance_crowd_banner.jpeg);
-    background-position: center;
+    /*background-position: center;*/
     background-attachment: fixed;
     background-size: cover;
+    height: fit-content;
 }
 
 .current_news > div {
