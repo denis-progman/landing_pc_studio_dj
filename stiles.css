@@ -135,9 +135,9 @@ input[type=checkbox] {
     background-color: darkgray;
     margin: 0;
     font: inherit;
-    width: 2em;
-    height: 2em;
-    border: 0.15em solid darkgray;
+    width: 1.8em;
+    height: 1.8em;
+    border: 0.15em solid white;
     display: grid;
     place-content: center;
 }
@@ -159,7 +159,7 @@ form input[type=checkbox]:checked:before {
 }
 input[type=checkbox]:checked {
     background-color: black;
-    border-color: rgb(38, 43, 75);
+    border-color: darkgray;
 }
 
 .application form > button:disabled,

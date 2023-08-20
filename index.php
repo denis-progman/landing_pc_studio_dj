@@ -97,7 +97,7 @@
         </div>
         <label>
             I agree to the processing of data:
-            <input class="checkbox__trigger visuallyhidden" type="checkbox" name="agreement" value="yes"/>
+            <input type="checkbox" name="agreement" value="yes"/>
         </label>
         <button type="submit" disabled>Send form</button>
     </form>
