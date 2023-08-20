@@ -129,8 +129,36 @@ textarea{
 .application form > label {
     font-size: 1.2em;
 }
-.application form > input[type="checkbox"] {
+.application form input[type="checkbox"] {
+    appearance: none;
+    background-color: #151414;
+    margin: 0;
+    font: inherit;
+    color: rgb(75, 155, 231);
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid white;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+
     zoom: 1.5;
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
 }
 
 .application form > button:disabled,
@@ -151,6 +179,7 @@ textarea{
     background-image: url(pictures/dance_crowd_banner.jpeg);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .current_news > div {
@@ -205,7 +234,7 @@ textarea{
     z-index: 8;
     border: 1px white solid;
     padding: 20px;
-    background: rgba(38, 43, 75, 0.6);
+    background: rgba(38, 43, 75, 0.7);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 }
