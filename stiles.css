@@ -68,6 +68,7 @@ textarea{
     min-width: 280px;
     font-weight: normal;
     height: 80px;
+    resize: none;
 }
 
 .flex_break{
