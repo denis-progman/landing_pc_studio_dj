@@ -251,7 +251,7 @@ input[type=checkbox]:checked {
 }
 
 .pop-cover {
-    /*display: none;*/
+    display: none;
     top: 0;
     left: 0;
     width: 100%;
@@ -267,7 +267,7 @@ input[type=checkbox]:checked {
     position: relative;
     width: 50%;
     margin: 0 auto;
-    top: 300px;
+    top: 40%;
     border: white 1px solid;
     padding: 55px 15px 20px;
     background: rgba(38, 43, 75, 0.7);;
