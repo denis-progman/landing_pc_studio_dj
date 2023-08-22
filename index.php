@@ -102,6 +102,20 @@
         </label>
         <button type="submit" disabled>Send form</button>
     </form>
+    <div class="pop-cover">
+        <div class="pop-alert">
+            <strong>Alert</strong>
+            <div class="pop-closer"></div>
+            <div class="popup_content">
+                <div class="alert_elements">
+                    <p>...</p>
+                    <div class="popup_keys_box">
+                        <button>OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section class="current_news">
     <div>

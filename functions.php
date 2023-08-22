@@ -56,6 +56,7 @@ function getGeoInfoByIP(string $ip, $login = ""): ?array {
     }
 }
 
-function showMessage($message) {
-    echo "<script>alert(\"{$message}\")</script>";
+function showMessage(array $data, $status = "ok"): void
+{
+    echo json_encode(["status" => $status] + $data, JSON_UNESCAPED_UNICODE);
 }
