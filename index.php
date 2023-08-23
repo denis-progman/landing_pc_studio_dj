@@ -83,7 +83,7 @@
         </label>
         <label>
             Tracks count:
-            <input type="number" data-note="How many tracks have you made(approximately)" name="tracks_amount" min="1" max="50" required>
+            <input type="number" data-note="How many tracks have you made(approximately)" name="tracks_amount" min="1" max="500" required>
         </label>
         <label>
             Public page:
