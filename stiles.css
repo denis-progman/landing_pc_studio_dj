@@ -331,9 +331,68 @@ input[type=checkbox]:checked {
     text-align: center;
 }
 
+.donation h3 {
+    margin-bottom: 100px;
+}
+
 .donation h6 {
+    cursor: default;
+    margin: 70px 0;
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
     font-weight: bolder;
     color: rgb(75, 155, 231);
+    opacity: 0.9;
+}
+
+
+.donation .image-wrapper {
+    width: 12rem;
+    border: white 2px outset;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.donation input[type=image] {
+    height: auto;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.donation .shine {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.donation .shine:before {
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #fff 50%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -50%;
+    position: absolute;
+    top: 0;
+    transform: skewX(-25deg);
+    width: 60%;
+    z-index: 3;
+    animation: shine 2.5s ease-in infinite;
+}
+
+@keyframes shine {
+    0%, 70% {
+        opacity: 0;
+        left: -50%;
+    }
+    85% {
+        opacity: .5;
+    }
+    100% {
+        left: 125%;
+        opacity: 0;
+    }
 }
