@@ -18,22 +18,22 @@
 <!--<h1>PC Studio DJ</h1>-->
 <section class="logo_box">
     <img src="pictures/pc%20studio%20dj%20logo.png" alt="pc studio dj group logo">
-    <h2>The new generation label is coming soon!</h2>
+    <h2>The next generation label coming soon!</h2>
     <button class="big_button" onclick="window.location.href='/#app_form';">join us the first!</button>
 </section>
 
 <section class="description">
     <p>
-        We are starting the absolutely unique EDM project to help musicians from all the world to promote the tracks, to communicate between each other and to find their listeners.
-        Our mission is getting rid of all borders between authors of different levels. We are going to make an environment where professionals and even popular EDM musicians can comfortable and interesting connect with not so popular guys and beginners. Along with it the beginners and developing musicians will have opportunities to have an opinion from experienced and famous men.
+        We are launching an absolutely unique EDM project to help musicians from all over the world promote their music, communicate between each other and find their listeners.
+        Our mission is to get rid of all boundaries between authors of different levels. We are going to create an environment where professionals and even popular EDM musicians can communicate comfortably and interestingly with not so popular guys and beginners. At the same time beginners and developing musicians will have the opportunity to get the opinion from experienced and famous people.
         <br/><br/>
-        We started our movement more even 10 years ago, we already have a private EDM community with about 100 musicians and djs. So we’ve got some experience how to do such a thing.
-        And now our founder became a prof. programmer, got a little iT team, so we can make the project bigger and better.
+        We started our movement 10 years ago, we already have a private EDM community with about 100 musicians and djs. So we have some experience how to do it.
+        And now our founder has become a prof. programmer, and we got a small iT team, so we can make the project bigger and better.
         <br><br/>
-        The first pilot of the project will be introduced in October 2023. The vip access will be given to guys from our private group and for men who has made an application here.
+        The first pilot of the project will be launched in October 2023. VIP access will be given to guys from our private group and men who apply here.
         So this is your chance to get earlier vip access and extra points as well. You need just send as this short form.
         <br/>
-        Stay with as look up the latest news. And se you soon in the EDM lable of the future!
+        Stay tuned for the latest news. And see you soon on the EDM label of the future!
     </p>
 </section>
 <hr/>
@@ -119,15 +119,15 @@
 </section>
 <section class="current_news">
     <div>
-    <h3>Now <span><?= $userCount?></span> musicians from all the world are already with us!</h3>
+    <h3>Now we have <span><?= $userCount?></span> musicians from all over the world with us!</h3>
     <p>
-        Every day the we develop the app,  each hour we become closer to launch the first version. All of you will have a message with short instructions how to login in your privilege account.
+        Every day we develop the app, every hour we get closer to the launch of the first version. All of you will receive a message with brief instructions on how to log in to your privileged account.
         <br/>
-        If you know somebody who likes and makes dance music let him know about as, show this page!
+        If you know someone who loves and performs dance music, let him know about us please, show this page!
         <br/>
-        During this time you can see all our latest movements, how our project is growing up, step by step!
+        During this time you'll be able to see all our latest movements, how our project grows, step by step!
     </p>
-    <h5>Last news:</h5>
+    <h5>The latest news:</h5>
     <ul>
         <li>-Aug 19 2023 It's great to see that people is coming here! Thanks everybody!</li>
         <li>-Aug 16 2023 The main part of the app interface is almost ready. So little by little</li>
@@ -154,7 +154,7 @@
     </div>
 </section>
 <section class="donation">
-    <h3>Help our mission, we really need your help!</h3>
+    <h3>Please help our mission, we really need your help!</h3>
     <form action="https://www.paypal.com/donate" method="post" target="_blank">
         <input type="hidden" name="business" value="2JSGP3WX4Q6LU" />
         <input type="hidden" name="no_recurring" value="0" />
@@ -163,6 +163,7 @@
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
     </form>
+    <h6>⏏</h6>
 </section>
 <hr/>
 <section class="footer">
