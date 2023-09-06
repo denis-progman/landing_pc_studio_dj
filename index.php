@@ -129,6 +129,7 @@
     </p>
     <h5>The latest news:</h5>
     <ul>
+        <li>-Sep 2 2023 Working with the main API, part of users and tracks is almost ready.</li>
         <li>-Aug 19 2023 It's great to see that people is coming here! Thanks everybody!</li>
         <li>-Aug 16 2023 The main part of the app interface is almost ready. So little by little</li>
         <li>-Aug 09 2023 We decided to make a back counter in the landing - now it's motivation!)</li>
